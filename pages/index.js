@@ -219,7 +219,7 @@ export async function getStaticProps() {
   let board = BOARD
   console.log(board)
   let nextBlock = BLOCKS[parseInt(Math.random() * (7 - 0) + 0)]
-  let currBlock = BLOCKS[/*parseInt(Math.random() * (7 - 0) + 0)*/1]
+  let currBlock = BLOCKS[parseInt(Math.random() * (7 - 0) + 0)]
   let currColor = COLORS[parseInt(Math.random() * (7 - 0) + 0)]
   let nextColor = COLORS[parseInt(Math.random() * (7 - 0) + 0)]
   return {
