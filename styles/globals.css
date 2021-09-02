@@ -14,3 +14,48 @@ a {
 * {
   box-sizing: border-box;
 }
+.grid-next{
+  height: 100px;
+  width: 100px;
+  border: solid black 0.5px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  margin: 10px;
+}
+.grid{
+  height: 500px;
+  width: 250px;
+  border: solid black 0.5px;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+}
+.cell{
+  border: solid black 0.1px;
+}
+.not-visible{
+  visibility: hidden;
+}
+
+.blue{
+  background-color:blue;
+}
+.cyan{
+  background-color:cyan;
+}
+.green{
+  background-color:green;
+}
+.yellow{
+  background-color:yellow;
+}
+.orange{
+  background-color:orange;
+}
+.purple{
+  background-color:purple;
+}
+.red{
+  background-color:red;
+}
